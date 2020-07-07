@@ -1,0 +1,305 @@
+[p LITE_MODE AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1938 ]
+[d frameptr 6 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"90 C:\Users\labo03\Desktop\PIC\LED16x2motor\main.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"97
+[v _wait_ms wait_ms `(v  1 e 1 0 ]
+"105
+[v _pps_set pps_set `(v  1 e 1 0 ]
+"109
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"136
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+"158
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+"167
+[v _Lcd_Clear Lcd_Clear `(v  1 e 1 0 ]
+"173
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+"194
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+"213
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+"229
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+"247
+[v _inputpps inputpps `(v  1 e 1 0 ]
+"274
+[v _motorset motorset `(v  1 e 1 0 ]
+"295
+[v _CW CW `(v  1 e 1 0 ]
+"330
+[v _CCW CCW `(v  1 e 1 0 ]
+"364
+[v _CW_sensor CW_sensor `(v  1 e 1 0 ]
+"405
+[v _CCW_sensor CCW_sensor `(v  1 e 1 0 ]
+"447
+[v _offmotor offmotor `(v  1 e 1 0 ]
+"454
+[v _sensor sensor `(v  1 e 1 0 ]
+"468
+[v _star star `(v  1 e 1 0 ]
+"489 C:\Program Files (x86)\Microchip\xc8\v1.42\include\pic16f1938.h
+[v _PORTB PORTB `VEuc  1 e 1 @13 ]
+"1226
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1288
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1350
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S37 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1621
+[s S46 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S51 . 1 `S37 1 . 1 0 `S46 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES51  1 e 1 @149 ]
+"1791
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1849
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"2670
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"3075
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3133
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"7796
+[v _RA0 RA0 `VEb  1 e 0 @96 ]
+"7798
+[v _RA1 RA1 `VEb  1 e 0 @97 ]
+"7800
+[v _RA2 RA2 `VEb  1 e 0 @98 ]
+"7806
+[v _RA5 RA5 `VEb  1 e 0 @101 ]
+"7812
+[v _RB0 RB0 `VEb  1 e 0 @104 ]
+"7814
+[v _RB1 RB1 `VEb  1 e 0 @105 ]
+"7816
+[v _RB2 RB2 `VEb  1 e 0 @106 ]
+"7818
+[v _RB3 RB3 `VEb  1 e 0 @107 ]
+"7820
+[v _RB4 RB4 `VEb  1 e 0 @108 ]
+"7822
+[v _RB5 RB5 `VEb  1 e 0 @109 ]
+"7824
+[v _RB6 RB6 `VEb  1 e 0 @110 ]
+"7826
+[v _RB7 RB7 `VEb  1 e 0 @111 ]
+"7836
+[v _RC4 RC4 `VEb  1 e 0 @116 ]
+"7838
+[v _RC5 RC5 `VEb  1 e 0 @117 ]
+"7840
+[v _RC6 RC6 `VEb  1 e 0 @118 ]
+"7842
+[v _RC7 RC7 `VEb  1 e 0 @119 ]
+"36 C:\Users\labo03\Desktop\PIC\LED16x2motor\main.X\main.c
+[v _L_motor_cw_MP50 L_motor_cw_MP50 `[8]i  1 e 16 0 ]
+"37
+[v _L_motor_ccw_MP50 L_motor_ccw_MP50 `[8]i  1 e 16 0 ]
+"41
+[v _L_motor_cw_NPM L_motor_cw_NPM `[4]i  1 e 8 0 ]
+"42
+[v _L_motor_ccw_NPM L_motor_ccw_NPM `[4]i  1 e 8 0 ]
+"45
+[v _pps pps `i  1 e 2 0 ]
+[v _motor motor `i  1 e 2 0 ]
+[v _rot rot `i  1 e 2 0 ]
+"90
+[v _main main `(v  1 e 1 0 ]
+{
+"96
+} 0
+"468
+[v _star star `(v  1 e 1 0 ]
+{
+"493
+} 0
+"454
+[v _sensor sensor `(v  1 e 1 0 ]
+{
+"466
+} 0
+"105
+[v _pps_set pps_set `(v  1 e 1 0 ]
+{
+[v pps_set@p p `i  1 p 2 9 ]
+"108
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"42
+} 0
+"447 C:\Users\labo03\Desktop\PIC\LED16x2motor\main.X\main.c
+[v _offmotor offmotor `(v  1 e 1 0 ]
+{
+"453
+} 0
+"274
+[v _motorset motorset `(v  1 e 1 0 ]
+{
+"294
+} 0
+"247
+[v _inputpps inputpps `(v  1 e 1 0 ]
+{
+"273
+} 0
+"109
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"134
+} 0
+"194
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+{
+"211
+} 0
+"167
+[v _Lcd_Clear Lcd_Clear `(v  1 e 1 0 ]
+{
+"171
+} 0
+"364
+[v _CW_sensor CW_sensor `(v  1 e 1 0 ]
+{
+"387
+[v CW_sensor@i_165 i `i  1 a 2 3 ]
+"369
+[v CW_sensor@i i `i  1 a 2 1 ]
+"365
+[v CW_sensor@a a `i  1 p 2 10 ]
+"404
+} 0
+"295
+[v _CW CW `(v  1 e 1 0 ]
+{
+"313
+[v CW@i_153 i `i  1 a 2 3 ]
+"298
+[v CW@i i `i  1 a 2 1 ]
+"296
+[v CW@a a `i  1 p 2 10 ]
+"329
+} 0
+"405
+[v _CCW_sensor CCW_sensor `(v  1 e 1 0 ]
+{
+"428
+[v CCW_sensor@i_171 i `i  1 a 2 3 ]
+"410
+[v CCW_sensor@i i `i  1 a 2 1 ]
+"406
+[v CCW_sensor@a a `i  1 p 2 10 ]
+"446
+} 0
+"330
+[v _CCW CCW `(v  1 e 1 0 ]
+{
+"348
+[v CCW@i_159 i `i  1 a 2 3 ]
+"333
+[v CCW@i i `i  1 a 2 1 ]
+"331
+[v CCW@a a `i  1 p 2 10 ]
+"363
+} 0
+"97
+[v _wait_ms wait_ms `(v  1 e 1 0 ]
+{
+[v wait_ms@t t `i  1 p 2 0 ]
+"104
+} 0
+"229
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+{
+"230
+[v Lcd_Write_String@i i `i  1 a 2 8 ]
+[v Lcd_Write_String@a a `*.25uc  1 p 2 5 ]
+"234
+} 0
+"213
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+{
+"214
+[v Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"215
+[v Lcd_Write_Char@y y `uc  1 a 1 3 ]
+[v Lcd_Write_Char@temp temp `uc  1 a 1 2 ]
+"214
+[v Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"216
+[v Lcd_Write_Char@a a `uc  1 a 1 4 ]
+"227
+} 0
+"173
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+{
+"174
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+"175
+[v Lcd_Set_Cursor@temp temp `uc  1 a 1 9 ]
+[v Lcd_Set_Cursor@y y `uc  1 a 1 8 ]
+[v Lcd_Set_Cursor@z z `uc  1 a 1 7 ]
+"174
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+"173
+[v Lcd_Set_Cursor@b b `uc  1 p 1 3 ]
+"176
+[v Lcd_Set_Cursor@a a `uc  1 a 1 6 ]
+"192
+} 0
+"158
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+{
+"159
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+[v Lcd_Cmd@a a `uc  1 a 1 2 ]
+"165
+} 0
+"136
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+{
+"137
+[v Lcd_Port@a a `uc  1 a 1 wreg ]
+[v Lcd_Port@a a `uc  1 a 1 wreg ]
+[v Lcd_Port@a a `uc  1 a 1 0 ]
+"157
+} 0
